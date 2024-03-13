@@ -1,0 +1,78 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar Styles */
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero Section Styles */
+.hero-content {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f4f4f4;
+}
+
+/* About Section Styles */
+.about-content {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #eaeaea;
+}
+
+/* Portfolio Section Styles */
+.portfolio-content {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.portfolio-item {
+    display: inline-block;
+    margin: 20px;
+}
+
+/* Contact Section Styles */
+.contact-content {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #eaeaea;
+}
+/* In your CSS file */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}

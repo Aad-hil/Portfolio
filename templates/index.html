@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-content">
+            <h1>M U H A M E D <br> A A D H I L</h1>
+            <p>S T U D E N T</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Dedicated Full Stack Developer skilled in Python programming with a solid
+understanding of front-end and back-end development. Proficient in leveraging
+Python frameworks such as Django and Flask to design and develop robust web
+applications. Demonstrated ability in creating responsive user interfaces using
+HTML, CSS, and JavaScript, coupled with expertise in modern JavaScript libraries
+and frameworks like React.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="portfolio-content">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <img src="static/assets/img/project 1.jpg" alt="Project 1" width="800" height="300">
+                <h3>Face Recognition</h3>
+                <p>Assisted the development team in designing and implementing new features for
+a image-recognition application.
+Collaborated with senior developers to debug and troubleshoot issues in the
+codebase.
+Participated in code reviews and actively contributed to agile development
+processes.
+</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="static/assets/img/project 2.png" alt="Project 2"width="800">
+                <h3>Blog Posting Website</h3>
+                <p>Developed responsive websites using HTML, CSS, and JavaScript, optimizing
+user experiences.
+Explored back-end technologies (Node.js, Express.js) to create APIs and
+integrate databases for seamless functionality.
+Communicated project progress and gathered client feedback to enhance
+project outcomes.
+</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-content">
+            <h2>Contact Me</h2>
+            <p>Email: aadhilmuhamed885@gmail.com</p>
+
+        </div>
+    </section>
+</body>
+</html>
